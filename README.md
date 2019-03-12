@@ -39,5 +39,5 @@ The default url for running locally this project is http://localhost:8080
 
 * After having vapor installed, you will need to run *$swift build* in the project root folder.
 * To open the project run *vapor xcode -y*
-* Pull a docker image for mysql by running **
+* Pull a docker image for mysql by running *docker run --name mysql -e MYSQL_USER=<your_user> -e MYSQL_PASSWORD=<your_password> -e MYSQL_DATABASE=til-app -p 3306:3306 -d mysql/mysql-server:5.7*
 * Configure the database credentials you inserted when running the docker command [here](https://github.com/sebas8824/TILApp/blob/master/Sources/App/configure.swift#L26)
