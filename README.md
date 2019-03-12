@@ -21,7 +21,9 @@
 
 # TIL App
 
-This app registers acronyms for logged in users
+This app registers acronyms for logged in users.
+
+This project was meant to demonstrate the capabilities of Vapor, Fluent, Authentication and Leaf modules for this framework.
 
 ## Getting Started
 
