@@ -1,0 +1,7 @@
+#set("content") {
+    <h1>Acronyms</h1>
+    <img src="/images/logo.png" class="mx-auto d-block">
+    #embed("acronyms-table")
+}
+
+#embed("base")

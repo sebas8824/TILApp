@@ -1,0 +1,4 @@
+module CCryptoOpenSSL {
+    umbrella "/Users/sebas8824/Documents/Development/vaporbootcamp/TILApp/.build/checkouts/crypto.git--3495294087684287331/Sources/CCryptoOpenSSL/include"
+    export *
+}
